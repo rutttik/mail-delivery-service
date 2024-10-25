@@ -1,2 +1,3 @@
 # mail-delivery-service
+The Email Sending Service is a Spring Boot-based microservice designed to handle automated email delivery for various applications. It provides a simple and efficient way to send transactional, promotional, and notification emails to users or customers. This service can be integrated with multiple systems via REST APIs, ensuring seamless communication across platforms.
 The service is built with scalability and reliability in mind, supporting features like email templates, scheduling, and bulk email sending. It integrates with popular email providers like SMTP, SendGrid, or AWS SES, ensuring high deliverability and tracking capabilities.
