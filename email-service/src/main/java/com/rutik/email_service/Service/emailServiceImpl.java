@@ -9,11 +9,11 @@ import org.springframework.stereotype.Service;
 public class emailServiceImpl implements emailService{
 
 	@Autowired
-	JavaMailSender javaMailSender;
+	private JavaMailSender MailSender;
 	@Override
 	public void sentEmail(String to, String subject, String message) {
 		// TODO Auto-generated method stub
-		
+		//MailSender.
 	}
 
 	@Override
